@@ -12,8 +12,6 @@
  
  Selecting the ingredient picker will set the whole ingredient variable to a copy of a static constant taken from DrinkIngredient.IngredientsDictionary
  
- Currently setting ingredient picker changes only name? check this
- I think for some fucken reason we need to do it in parent
  
  
  

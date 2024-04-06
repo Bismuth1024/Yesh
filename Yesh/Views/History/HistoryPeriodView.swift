@@ -116,7 +116,7 @@ struct HistoryPeriodView: View {
         case .year:
             matchComponents = DateHelpers.FirstOfYear
         default:
-            fatalError("NIgga what are you doing")
+            fatalError(" what are you doing")
         }
         currentPeriodStart = Calendar(identifier: .gregorian).nextDate(after: Date.now, matching: matchComponents, matchingPolicy: .strict, direction:  .backward)!
         

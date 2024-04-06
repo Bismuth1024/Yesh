@@ -14,7 +14,7 @@ struct Pharmacokinetics {
         } else if sex == "female" {
             return -2.097 + 0.1069*height + 0.2446*mass
         }
-        //nigga how did we get here
+        //how did we get here
         return -696969
     }
     

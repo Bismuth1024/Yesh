@@ -110,10 +110,9 @@ struct AddDrinkView: View {
             }
         }
       
-            //THIS MUST BE DONE IN THE PARENT VIEW BUT DO NOT FUCKING ASK ME WHY I SPENT DAYS TRYING TO MAKE IT WORK IN THE CHILD LIKE IT SHOULD
+            //THIS MUST BE DONE IN THE PARENT VIEW BUT DO NOT ASK ME WHY I SPENT DAYS TRYING TO MAKE IT WORK IN THE CHILD LIKE IT SHOULD
             //I worked it out: since the id of an IngredientWrapper resolves to the ID of the DrinkIngredient which is equal to the ingredient's name, changing the name changes the ID and this does something since the list uses the ID to work out what row you are looking at.  So, if you change the name and hence id, onchange of name won't fire.
             //I fixed it by using the index of the drink as its id for the purposes of ForEach instead of the id value.
-            //Deleted or added so don't bother
     }
     
     func addDrink() {
